@@ -71,8 +71,6 @@
   </dependencies>
   <build>
     <finalName>ILP_Fancystore</finalName>
-
-	<plugins>
 			
 		<pluginManagement>
 			<plugins>
