@@ -45,7 +45,7 @@ public class LoginFunctionalTest {
 
 	@Test
 	public void loginSuccess() {
-        driver.get("http://localhost:5050/ILP_Fancystore");
+        driver.get("http://localhost:5050/ILF_FancyStoreN1");
         WebElement email = driver.findElement(By.name("email"));
         WebElement pass = driver.findElement(By.name("password"));
         WebElement button = driver.findElement(By.xpath("/html/body/form/div/button"));         
@@ -57,7 +57,7 @@ public class LoginFunctionalTest {
 	
 	//@Test
 	public void loginFail() {
-        driver.get("http://localhost:5050/ILP_Fancystore");
+        driver.get("http://localhost:5050/ILF_FancyStoreN1");
         WebElement email = driver.findElement(By.name("email"));
         WebElement pass = driver.findElement(By.name("password"));
         WebElement button = driver.findElement(By.xpath("/html/body/form/div/button"));         
@@ -69,7 +69,7 @@ public class LoginFunctionalTest {
 	
 	@Test
 	public void registrationSuccess() {
-        driver.get("http://localhost:5050/ILP_Fancystore/register.jsp");
+        driver.get("http://localhost:5050/ILF_FancyStoreN1/register.jsp");
         WebElement firstname = driver.findElement(By.name("firstname"));
         WebElement lastname = driver.findElement(By.name("lastname"));
         WebElement confirmpass = driver.findElement(By.name("confirmpass"));
@@ -87,7 +87,7 @@ public class LoginFunctionalTest {
 	
 	@Test
 	public void forgotPasswordSuccess() {
-        driver.get("http://localhost:5050/ILP_Fancystore/forgotpassword.jsp");      
+        driver.get("http://localhost:5050/ILF_FancyStoreN1/forgotpassword.jsp");      
         WebElement confirmpass = driver.findElement(By.name("confirmpassword"));
         WebElement email = driver.findElement(By.name("email"));
         WebElement pass = driver.findElement(By.name("newpassword"));
